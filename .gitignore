@@ -1,0 +1,70 @@
+# Gradle
+
+.gradle/
+build/
+*/build/
+
+# Local configuration (may contain API keys)
+
+local.properties
+
+# Android Studio project files
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+
+# Log files
+
+*.log
+
+# Build outputs
+
+outputs/
+*.apk
+*.aab
+
+# Native build directories
+
+.externalNativeBuild/
+.cxx/
+
+# Keystore files (sensitive)
+
+*.jks
+*.keystore
+
+# Firebase / Google services configuration
+
+google-services.json
+
+# Secrets and API key files
+
+*.properties
+secrets.properties
+apikey.properties
+env.properties
+
+# Compiled files
+
+*.class
+*.dex
+
+# Navigation component generated files
+
+.navigation/
+
+# Database files
+
+*.db
+*.sqlite
+
+# Capture and cache directories
+
+captures/
