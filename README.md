@@ -96,7 +96,7 @@ API keys and sensitive configurations are secured using:
 
 ## 👩‍💻 Author
 
-**Annapoorna Aradhya**
+**Annapoorna V**
 
 
 ---
