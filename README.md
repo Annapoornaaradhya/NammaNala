@@ -1,116 +1,202 @@
-# 🌿 Namma-Nala: Smart Canal Health Monitoring System
+<div align="center">
 
-Namma-Nala is an Android-based smart irrigation monitoring system designed to help farmers efficiently manage canal water usage. The application provides real-time insights, issue reporting, and intelligent recommendations to optimize water distribution.
+# 🌿 Namma-Nala
+### Smart Canal Health Monitoring System
 
----
+<p align="center">
+  Smart irrigation and canal monitoring application built using Kotlin, Jetpack Compose, Firebase, GPS, and Google Maps.
+</p>
 
-## 📱 Features
+![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge)
+![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-purple?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-* **Real-time Water Monitoring**
-  Track water levels and flow conditions dynamically.
-
-* **AI-Based Insights**
-  Get recommendations based on water availability and usage patterns.
-
-* **Issue Reporting System**
-  Report canal issues such as leakage, blockage, overflow, and more with location and image support.
-
-* **Maintenance Scheduling**
-  Plan and manage canal maintenance activities efficiently.
-
-* **Interactive Canal Map**
-  Visualize canal paths and locations using Google Maps integration.
-
-* **User Authentication**
-  Secure login and signup using Firebase Authentication.
-
-* **Data Visualization**
-  View water usage trends using graphical representations.
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+# 📖 Overview
 
-* **Frontend:** Kotlin, Jetpack Compose
-* **Backend:** Firebase (Authentication, Firestore)
-* **Maps & Location:** Google Maps API, GPS
-* **Charts:** MPAndroidChart
-* **Architecture:** Modern Android (Composable UI, Navigation)
+**Namma-Nala** is an Android-based smart irrigation and canal monitoring system designed to help farmers and authorities efficiently manage canal water usage.
+
+The application provides:
+- real-time monitoring,
+- intelligent insights,
+- issue reporting,
+- maintenance management,
+- and interactive canal visualization.
+
+The goal of the project is to improve water distribution efficiency and support sustainable irrigation practices.
 
 ---
 
-## 🧱 Project Structure
+# ✨ Features
 
+## 💧 Real-time Water Monitoring
+Track canal water levels and flow conditions dynamically.
+
+## 🤖 AI-Based Insights
+Receive smart recommendations based on water usage and availability patterns.
+
+## 🚨 Issue Reporting System
+Report:
+- leakage
+- blockage
+- overflow
+- damaged canals
+
+with image and location support.
+
+## 🛠️ Maintenance Scheduling
+Schedule and manage canal maintenance activities effectively.
+
+## 🗺️ Interactive Canal Map
+Visualize canal locations and routes using Google Maps integration.
+
+## 🔐 User Authentication
+Secure login and signup using Firebase Authentication.
+
+## 📊 Data Visualization
+Analyze water usage trends through graphical representations.
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | Kotlin, Jetpack Compose |
+| Backend | Firebase Authentication, Firestore |
+| Maps & Location | Google Maps API, GPS |
+| Charts | MPAndroidChart |
+| Architecture | Modern Android Architecture |
+
+---
+
+# 🧱 Project Structure
+
+```bash
+NammaNala/
+│
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/example/nammanala/
+│   │   │   ├── screens/
+│   │   │   ├── navigation/
+│   │   │   ├── components/
+│   │   │   ├── viewmodel/
+│   │   │   └── utils/
+│   │   ├── res/
+│   │   └── AndroidManifest.xml
+│   │
+│   └── build.gradle.kts
+│
+├── gradle/
+├── local.properties
+└── README.md
 ```
-app/
- ├── src/main/
- │   ├── java/com/example/nammanala/
- │   ├── res/
- │   └── AndroidManifest.xml
- ├── build.gradle.kts
+
+---
+
+# 🔐 Security
+
+Sensitive configurations are secured using:
+
+- Restricted API Keys
+- SHA-1 Authentication
+- Local configuration via `local.properties`
+
+Example:
+
+```properties
+MAPS_API_KEY=your_api_key_here
 ```
 
 ---
 
-## 🔐 Security Note
+# 🚀 Getting Started
 
-API keys and sensitive configurations are secured using:
+## Prerequisites
 
-* Restricted API keys (Package name + SHA-1)
-* Local configuration (`local.properties`) for sensitive data
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-* Android Studio (latest version)
-* Firebase project setup
-* Google Maps API key
-
-### Steps
-
-1. Clone the repository
-2. Open in Android Studio
-3. Add your API key in `local.properties`:
-
-   ```
-   MAPS_API_KEY=your_api_key_here
-   ```
-4. Sync Gradle and run the app
+- Android Studio (Latest Version)
+- Firebase Project Setup
+- Google Maps API Key
 
 ---
 
-## Watch Demo
+## Installation Steps
 
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Annapoornaaradhya/NammaNala.git
+```
+
+### 2️⃣ Open in Android Studio
+
+Open the cloned project folder in Android Studio.
+
+### 3️⃣ Configure API Key
+
+Add your Google Maps API key inside:
+
+```properties
+local.properties
+```
+
+```properties
+MAPS_API_KEY=your_api_key_here
+```
+
+### 4️⃣ Run the Application
+
+Sync Gradle and run the project on an emulator or physical device.
+
+---
+
+# 🎥 Demo Video
 
 https://github.com/user-attachments/assets/7fd83871-8da8-43ad-adb2-d66ae6b080c9
 
+---
+
+# 📱 Screenshots
+
+<p align="center">
+  <img width="280" src="https://github.com/user-attachments/assets/b53407d8-656f-4e41-afc2-652a41df6c86"/>
+</p>
 
 ---
 
-## 📱 Screenshots
+# 📊 Future Enhancements
 
-<img width="716" height="1600" alt="WhatsApp Image 2026-05-04 at 8 28 50 PM" src="https://github.com/user-attachments/assets/b53407d8-656f-4e41-afc2-652a41df6c86" /> 
-
----
-
-## 📊 Future Enhancements
-
-* IoT integration for real-time sensor data
-* Advanced AI-based prediction models
-* Multi-language support for rural accessibility
-* Offline functionality
+- 📡 IoT integration for live sensor-based monitoring
+- 🤖 Advanced AI prediction models
+- 🌐 Multi-language support for rural accessibility
+- 📶 Offline functionality
+- ☁️ Cloud analytics dashboard
+- 🌦️ Weather-based irrigation recommendations
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
-**Annapoorna V**
+## Annapoorna Aradhya
+
+- GitHub: https://github.com/Annapoornaaradhya
+- LinkedIn: https://linkedin.com/in/annapoorna-aradhya
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is for academic and educational purposes.
+This project is developed for academic, internship, and educational purposes.
+
+---
+
+<div align="center">
+
+### 🌱 “Smart Water Management for a Sustainable Future”
+
+</div>
