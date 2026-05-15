@@ -3,14 +3,22 @@
 # 🌿 Namma-Nala
 ### Smart Canal Health Monitoring System
 
-<p align="center">
+<p>
   Smart irrigation and canal monitoring application built using Kotlin, Jetpack Compose, Firebase, GPS, and Google Maps.
 </p>
 
-![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge)
-![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-purple?style=for-the-badge)
-![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+<p>
+   <a href="https://doi.org/10.5281/zenodo.20213371">
+    <img src="https://zenodo.org/badge/1228929567.svg" alt="DOI">
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Kotlin-Jetpack%20Compose-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Firebase-Backend-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+</p>
 
 </div>
 
