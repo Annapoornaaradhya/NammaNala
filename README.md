@@ -82,6 +82,14 @@ API keys and sensitive configurations are secured using:
 
 ---
 
+## Watch Demo
+
+
+https://github.com/user-attachments/assets/7fd83871-8da8-43ad-adb2-d66ae6b080c9
+
+
+---
+
 ## 📱 Screenshots
 
 <img width="716" height="1600" alt="WhatsApp Image 2026-05-04 at 8 28 50 PM" src="https://github.com/user-attachments/assets/b53407d8-656f-4e41-afc2-652a41df6c86" /> 
@@ -100,7 +108,6 @@ API keys and sensitive configurations are secured using:
 ## 👩‍💻 Author
 
 **Annapoorna V**
-
 
 ---
 
